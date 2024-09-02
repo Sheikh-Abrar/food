@@ -1,0 +1,841 @@
+body {
+    font-family: $base-font-family;
+}
+
+// ============================
+// About-us Section start
+// ============================
+.About-us {
+    padding: 80px 0px;
+    background-color: #e140340d;
+
+    .about-img-wrp {
+
+        img {
+            width: 100%;
+            border-radius: 10px
+        }
+    }
+
+    .about-content-wrp {
+
+        h1 {
+            font-size: 35px;
+            font-family: $base-font-family;
+            font-weight: 600;
+        }
+
+        p {
+            color: #999;
+            font-size: 18px;
+            font-weight: 400;
+
+
+        }
+    }
+}
+
+// ============================
+// Menu-section Section start
+// ============================
+.Menu-section {
+    padding: 80px 0px;
+
+    .main-menu-heading {
+
+        h1 {
+            font-family: $base-font-family;
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        .menu-item-wrp {
+            display: flex;
+            gap: 10px;
+            background-color: #e14034;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.3s ease;
+
+            &:hover {
+                transform: translate3d(0, -8px, 0);
+                box-shadow: 0 40px 70px -30px rgba(19, 33, 54, 0.36), 0 20px 70px -30px rgba(0, 0, 0, 0.8);
+
+            }
+
+            .menu-img {
+                flex-basis: 30%;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .menu-details {
+                flex-basis: 70%;
+                padding: 15px 0px;
+
+                h4 {
+                    font-family: $base-font-family;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    color: #fff;
+                }
+
+                p {
+                    font-family: $base-font-family;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    color: #fff;
+                    padding-right: 10px;
+                }
+
+                span {
+                    font-family: $base-font-family;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    color: #fff;
+                }
+
+                .price-wrp {
+                    display: flex;
+                }
+            }
+
+        }
+    }
+
+}
+
+// ============================
+// reviews Section start
+// ============================
+.reviews-section {
+    padding-bottom: 80px;
+
+    .main-review-heading {
+
+        h1 {
+            font-family: $base-font-family;
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    .review-card-wrp {
+        background-color: #bab2a457;
+        padding: 15px 15px;
+
+        .review-wrp {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-bottom: 10px;
+
+            .img-wrp {
+                width: 75px;
+                padding: 10px 10px;
+                border-radius: 50%;
+                background-color: #fff;
+
+                img {
+                    width: 100%;
+                    border-radius: 20%;
+                }
+            }
+
+            .claint-name {
+
+                h5 {
+                    font-size: 18px;
+                    font-family: $base-font-family;
+                    font-weight: 600;
+                    color: #e14034;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+    }
+}
+
+// ============================
+// delivery Section start
+// ============================
+.delivery-section {
+    .tabs {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px;
+        width: 300px;
+        padding: 15px 25px !important;
+        background-color: #f3ab42;
+        border-radius: 50px;
+        gap: 5px;
+    }
+
+    .tab {
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        background-color: #e14034;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100px;
+        padding: 15px 15px !important;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .tab:hover {
+        background-color: #ccc;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+}
+
+// ============================
+// reviews Section start
+// ============================
+.delivery-section {
+    background-color: rgb(225 64 52 / 5%);
+    padding: 80px 0px;
+
+    .delivery-wrp {
+
+        .pickup-wrp {
+
+            h1 {
+                font-size: 30px;
+                font-family: $base-font-family;
+                font-weight: 600;
+                padding-left: 5px;
+            }
+
+            p {
+                font-size: 17px;
+                font-family: $base-font-family;
+                font-weight: 500;
+            }
+
+            .pick-location {
+                width: 100%;
+
+                .salect-locations {
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: 1px solid #e14034;
+                }
+            }
+        }
+
+        .delivery-wrp {
+
+            h1 {
+                font-size: 30px;
+                font-family: $base-font-family;
+                font-weight: 600;
+                padding-left: 5px;
+            }
+
+            .delivery-input-wrp {
+
+                input {
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: 1px solid #e14034;
+                    font-size: 16px;
+                    color: rgba(0, 0, 0, 0.623);
+                    margin-top: 20px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+    .map {
+        iframe {
+            border-radius: 10px;
+        }
+    }
+}
+
+// ============================
+// cooking-skills Section start
+// ============================
+.cooking-skills-section {
+    padding: 80px 0px;
+
+    .cooking-content-wrp {
+
+        h1 {
+            font-size: 35px;
+            font-family: $base-font-family;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+
+        .cooking-skills {
+            padding-left: 32px;
+
+            li {
+                font-size: 16px;
+                font-weight: 500;
+                font-family: $base-font-family;
+                color: #000000;
+                position: relative;
+                list-style: none;
+                margin: 10px 0px;
+
+                &::before {
+                    content: "";
+                    background-image: url('assets/images/check-mark.png');
+                    background-size: contain;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 2px;
+                    left: -30px;
+                    font-size: 20px;
+
+                }
+            }
+        }
+    }
+
+    .cooking-img-wrp {
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+//            product detail  section
+// ++++++++++++++++++++++++++++++++++++
+.product-det {
+    padding: 50px 0px;
+    .product-image {
+        padding: 20px;
+        border: 1px solid #999;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .product-det-content {
+        padding: 40px;
+        h1 {
+            position: relative;
+            font-size: 30px;
+            font-weight: 400;
+
+            &::after {
+                content: '';
+                width: 50%;
+                height: 2px;
+                background-color: #999;
+                position: absolute;
+                bottom: -9px;
+                left: 0;
+            }
+        }
+
+        .rate-review {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 50%;
+
+            p {
+                color: #000000;
+                font-size: 20px;
+                font-weight: 500;
+                margin-top: 0;
+                margin-bottom: 0;
+                font-family: cursive;
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                padding-left: 0;
+                margin-bottom: 0;
+
+                li {
+                    i {
+                        color: #f3ab42;
+                    }
+                }
+            }
+        }
+    }
+
+    p {
+        font-size: 14px;
+        color: #999;
+        margin-top: 20px;
+    }
+
+    .qty-sec {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        .quantity-input {
+            display: flex;
+            align-items: center;
+            .quantity {
+              width: 60px;
+              height: 38px;
+              text-align: center;
+              outline-color: transparent;
+              border: none;
+            }
+          
+            .quantity-btn {
+              padding: 5px 10px;
+              background-color: #f3ab42;
+              border: none;
+              cursor: pointer;
+              transition: background-color 0.3s;
+              font-size: 18px;
+              color: #fff;
+              font-weight: 500;
+                border-radius: 5px ;
+              &:hover {
+                background-color: #e14034;
+                border: none;
+                outline-color: none;
+              }
+            }
+          }
+
+        .addtocart {
+            padding: 15px 25px;
+            border-radius: 10px;
+            color: #fff;
+            background-color: #e13e35;
+            text-decoration: none;
+        }
+        .wishlist-btn{
+            padding: 13px 20px;
+            border-radius: 10px;
+            color: #f3ab42;
+            border: 2px solid  #f3ab42;
+            background-color: transparent;
+            text-decoration: none;
+            &:hover{
+                background-color: #f3ab42;
+                color: #fff;
+                transition: 0.3s ease-in-out;
+                
+         
+            }
+        
+        }
+    }
+
+}
+// ++++++++++++++++++++++++++++++++++++
+//  related card section
+// ++++++++++++++++++++++++++++++++++++
+.related-product{
+    padding: 50px 0px;
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .row{
+        padding-top: 50px;
+        .rel-card-main{
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            .rel-card-image{
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .rel-card-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h6{
+                    font-size: 18px;
+                    margin-bottom: 0;
+                    margin-top: 10px;
+                }
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-bottom: 3px;
+                    color: #f3ab42;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: cursive;
+                }
+            }
+        }
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+//            risponsive
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 1024px) {
+    .About-us .about-content-wrp p {
+        font-size: 15px;
+    }
+
+    .Menu-section a .menu-item-wrp .menu-details p {
+        font-size: 14px;
+    }
+
+    .cooking-skills-section .cooking-content-wrp .cooking-skills li {
+        font-size: 13px;
+    }
+
+    footer .footer-content p {
+        font-size: 13px;
+    }
+
+    footer .footer-ether-wrp h1 {
+        font-size: 18px;
+    }
+
+    footer .contact-wrp h1 {
+        font-size: 18px;
+    }
+
+    footer .socail-med h1 {
+        font-size: 19px;
+    }
+
+    footer .contact-wrp .contact-details ul li a {
+        font-size: 13px;
+    }
+
+    footer .contact-wrp .contact-details ul li i {
+        font-size: 15px;
+    }
+
+    footer .socail-med .socails ul li a {
+        width: 35px;
+        height: 36px;
+    }
+
+    footer .socail-med .socails ul li a i {
+        font-size: 16px;
+    }
+
+    footer .copy-right p {
+        font-size: 14px;
+    }
+
+    header .logo-wrp .logo {
+        width: 180px;
+        height: 180px;
+    }
+
+    header .logo-wrp .logo a img {
+        width: 150px;
+        justify-content: space-between;
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+// risponsive size 991px
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 991px) {
+    .open-bars {
+        text-align: right;
+        padding: 8px 0px;
+    }
+
+    .open-bars i {
+        font-size: 28px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    header .logo-wrp .logo {
+        width: 170px;
+        height: 170px;
+    }
+
+    header .logo-wrp .logo a img {
+        width: 140px;
+    }
+
+    .mobile-menu-wrp {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 50%;
+        height: 100%;
+        background-color: #e14034;
+        z-index: 1;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.4s ease;
+    }
+
+    .mobile-menu-wrp.active {
+        visibility: visible;
+        opacity: 1;
+        right: 0%;
+    }
+
+
+    .mobile-menu ul {
+        padding-right: 30px;
+    }
+
+    .mobile-menu ul li {
+        padding: 16px 1px;
+        list-style: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .mobile-menu ul li a {
+        color: #fff;
+        font-size: 18px;
+        font-family: $base-font-family;
+        font-weight: 500;
+    }
+
+    .close-menu-wrp {
+        display: flex;
+        justify-content: flex-end;
+        padding: 25px 30px;
+    }
+
+    .close-menu {
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+
+    .close-menu i {
+        font-size: 28px;
+        color: #e14034;
+    }
+
+    .reviews-section .review-card-wrp .review-wrp .img-wrp {
+        width: 65px;
+    }
+
+    footer {
+        padding: 40px 0px;
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+// risponsive size 768px
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 768px) {
+    .About-us .row {
+        flex-direction: column-reverse;
+    }
+
+    .map {
+        padding-top: 20px;
+    }
+
+    .cooking-img-wrp {
+        padding-top: 20px;
+    }
+
+    footer .socail-med {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .mob-pad {
+        padding-top: 20px;
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+// risponsive size 500pxpx
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 500px) {
+    .mobile-menu-wrp {
+        width: 60%;
+    }
+
+    .open-bars {
+        padding: 8px 10px;
+    }
+
+    .mobile-menu-wrp {
+        width: 100%;
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+// risponsive size 425px
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 425px) {
+    .Menu-section a .menu-item-wrp .menu-details p {
+        font-size: 13px;
+    }
+}
+
+// ++++++++++++++++++++++++++++++++++++
+// risponsive size 375px
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 375px) {
+    header .logo-wrp .logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    header .logo-wrp .logo a img {
+        width: 130px;
+    }
+
+    .About-us .about-content-wrp p {
+        font-size: 14px;
+    }
+
+    .Menu-section a .menu-item-wrp .menu-details {
+        padding: unset;
+        padding-top: 10px;
+    }
+
+    .reviews-section .main-review-heading h1 {
+        font-size: 35px;
+    }
+
+    .delivery-section .delivery-wrp .delivery-wrp h1 {
+        font-size: 25px;
+    }
+
+    .Menu-section a .menu-item-wrp .menu-details p {
+        font-size: 11px;
+    }
+
+}
+
+// ++++++++++++++++++++++++++++++++++++
+// risponsive size 320px
+// ++++++++++++++++++++++++++++++++++++
+@media (max-width: 320px) {
+    header .logo-wrp .logo {
+        width: 140px;
+        height: 140px;
+    }
+
+    header .logo-wrp .logo a img {
+        width: 110px;
+    }
+
+    .open-bars {
+        padding: 3px 5px;
+    }
+
+    .About-us .about-content-wrp p {
+        font-size: 12px;
+    }
+
+    .Menu-section .main-menu-heading h1 {
+        font-size: 35px;
+    }
+
+    .Menu-section a .menu-item-wrp {
+        flex-wrap: wrap;
+    }
+
+    .Menu-section a .menu-item-wrp .menu-img {
+        flex-basis: 100%;
+    }
+
+    .Menu-section a .menu-item-wrp .menu-details {
+        flex-basis: 100%;
+        padding: 10px;
+    }
+
+    .reviews-section .main-review-heading h1 {
+        font-size: 30px;
+    }
+
+    .tabs {
+        width: 250px;
+        padding: 10px 15px !important;
+    }
+
+    .tab {
+        font-size: 15px;
+    }
+
+    .delivery-section .delivery-wrp .delivery-wrp h1 {
+        font-size: 22px;
+    }
+
+    .cooking-skills-section .cooking-content-wrp h1 {
+        font-size: 28px;
+    }
+
+    .map iframe {
+        height: 300px !important;
+    }
+
+    .mob-show {
+        max-width: 100% !important;
+        flex: 0 0 100%;
+    }
+
+    footer .footer-ether-wrp {
+        padding-top: 15px;
+    }
+
+    footer .contact-wrp {
+        padding-top: 20px;
+    }
+
+    footer .copy-right p {
+        font-size: 12px;
+    }
+}
